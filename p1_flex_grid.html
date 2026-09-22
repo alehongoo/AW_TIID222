@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contenedor{
+         /* FLEX ES PARA UNA COLUMNA O UNA FILA, column o row
+           display: flex;
+            flex-direction: row;*/
+            gap: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .card-larga{
+            grid-column: 3;
+            grid-row: span 1;
+
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="card" style="background-color: blue; width: 250px">
+            <h1> AUFHQIHAUWEV   </h1>
+        </div>
+        <div class="card" style="background-color: blue; width: 250px">
+            <h1> AUFHQIHAUWEV   </h1>
+        </div>
+        <div class="card-larga" style="background-color: blue; width: 250px">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS63UWBf8y29H9t4dh_8FNT2j-QzXT5uUE6kL8FMkExaQ&s=10" alt="" width="250px">
+            <h1> AUFHQIHAUWEV   </h1>
+        </div>
+        <div class="card" style="background-color: green; width: 250px;">
+            <h1>    hahfefhaci</h1>
+        </div>
+        <div class="card" style="background-color: green; width: 250px;">
+            <h1>    hahfefhaci</h1>
+        </div>
+        <div class="card" style="background-color: green; width: 250px;">
+            <h1>    hahfefhaci</h1>
+        </div>
+        <div class="card" style="background-color: green; width: 250px;">
+            <h1>    hahfefhaci</h1>
+        </div>
+    </div>
+    
+</body>
+</html>
